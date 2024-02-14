@@ -1,0 +1,4 @@
+Error while connecting MongoDB :-
+⚫Dot env URL  was undefined therfore  the following error was     occuring :- Mongo Connection Error : MongoParseError: Invalid scheme, expected connection string 
+to start with "mongodb://" or "mongodb+srv://"
+➡ Solution:- import 'dotenv/config' 

@@ -1,0 +1,5 @@
+⚫Created the folder structure of the Backend
+⚫Created a .env file assigned the evironment variables.
+⚫Created the MongoDB connection code in db/db.js file
+⚫Solved error regarding .env import and URL environment importing
+    
