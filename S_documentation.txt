@@ -2,4 +2,12 @@
 ⚫Created a .env file assigned the evironment variables.
 ⚫Created the MongoDB connection code in db/db.js file
 ⚫Solved error regarding .env import and URL environment importing
-    
+⚫Created custom asyncHandler which acts as a wrapper function   
+⚫Created custom API Error handler
+⚫Created a custom API Response
+⚫Created User data model
+⚫Created Video data model
+⚫Created a userschema method & function in user_model.js for saving the password in db in a hashed string using bcrypt and also created a method isCorrect to check the hashed password is authentic
+⚫Created a userschema method & function in user_model.js to generate access token as well as to generate refresh token   
+⚫Created a cloudinary.js utility to upload file on cloud
+⚫Created a function in cloudinary.js which takes the file saved on the server for a fraction on time and uploads it to cloudinary and then deletes it from local server after uploading
