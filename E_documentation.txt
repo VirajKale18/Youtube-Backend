@@ -2,3 +2,7 @@ Error while connecting MongoDB :-
 ⚫Dot env URL  was undefined therfore  the following error was     occuring :- Mongo Connection Error : MongoParseError: Invalid scheme, expected connection string 
 to start with "mongodb://" or "mongodb+srv://"
 ➡ Solution:- import 'dotenv/config' 
+⚫ login functionality not able to generate access token and refresh token .
+➡ Return missing in generategenerateAccessToken &generateRefershToken method of user_model.js
+⚫ user Not able to logout due to the server not able to read client cookie
+➡ app.use(cookieParser()) missing in App.js 

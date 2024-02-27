@@ -10,4 +10,8 @@
 ⚫Created a userschema method & function in user_model.js for saving the password in db in a hashed string using bcrypt and also created a method isCorrect to check the hashed password is authentic
 ⚫Created a userschema method & function in user_model.js to generate access token as well as to generate refresh token   
 ⚫Created a cloudinary.js utility to upload file on cloud
-⚫Created a function in cloudinary.js which takes the file saved on the server for a fraction on time and uploads it to cloudinary and then deletes it from local server after uploading
+⚫Created a function in cloudinary.js which takes the file saved on the server for a fraction of time and uploads it to cloudinary and then deletes it from local server after uploading to cloud.
+⚫Created registerUser functionality in user_controller to register new user.
+⚫Created loginUser functionality in user_controller to authenticate user.
+⚫Created verifyJWT middleware to authenticate user JWT tokens before logout. 
+⚫Created logoutUser functionality to logoutUser user from the session. 
